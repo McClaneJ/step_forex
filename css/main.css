@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body, .content{
+  min-height: 100%;
+}
+.content{
+  width: 1200px;
+  margin: auto;
+}
+.clear{
+  clear: both;
+}
+.empty{
+  height: 140px;
+}

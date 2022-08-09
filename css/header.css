@@ -1,0 +1,81 @@
+header{
+  padding: 10px 0;
+  width: 1200px;
+}
+.logo{
+  float: left;
+  margin: 0 0 20px 0;
+}
+
+/* Main menu */
+ul.main_menu{
+  float: left;
+}
+  ul.main_menu li{
+    float: left;
+    list-style: none;
+  }
+  ul.main_menu > li{
+    position: relative;
+  }
+    ul.main_menu li a{
+      text-decoration: none;
+      color: #000;
+      padding: 20px;
+      display: block;
+    }
+    ul.main_menu li a:hover{
+      text-decoration: underline;
+    }
+      ul.main_menu li ul{
+        position: absolute;
+        display: none;
+        width: 300px;
+        top: 100%;
+        left: 0;
+        background-color: green;
+      }
+      ul.main_menu li:hover ul{
+        display: block;
+      }
+        ul.main_menu li ul li{
+          width: 100%;
+        }
+        ul.main_menu li ul li:hover{
+          background-color: #505050
+        }
+          ul.main_menu li ul li a{
+            width: 100%;
+          }
+/* Main menu(end) */
+
+/* Registration */
+.registration{
+  background-color: #129f12;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  float: left;
+  transition: width 2s, height 4s;
+  width: 100px;
+  height: 100px;
+}
+.registration:hover{
+  background-color: black;
+  width: 300px;
+  height: 300px;
+}
+/* Registration(end) */
+
+/* Enter */
+.enter{
+  background-color: green;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  float: left;
+}
+.enter:hover{
+  background-color: black;
+}
+/* Enter(end) */
