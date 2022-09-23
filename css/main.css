@@ -9,6 +9,7 @@ body, .content{
 .content{
   width: 1200px;
   margin: auto;
+  position: relative;
 }
 .clear{
   clear: both;
